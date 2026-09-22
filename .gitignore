@@ -98,3 +98,13 @@ celerybeat.pid
 
 # mkdocs documentation
 /site
+
+# Containerlab runtime artifacts
+lab*/clab-*/
+lab*/*.clab.yml.bak
+
+# Secrets / keys / certs
+*.key
+*.pem
+*.crt
+authorized_keys
