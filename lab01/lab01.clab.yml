@@ -25,6 +25,6 @@ topology:
         - ip addr add 192.168.10.12/24 dev eth1
 
   links:
-    - endpoints: ["sw1:eth1", "sw2:eth1"]     # trunk entre os switches
-    - endpoints: ["pc1:eth1", "sw1:eth2"]     # host 1 no switch 1
-    - endpoints: ["pc2:eth1", "sw2:eth2"]     # host 2 no switch 2
+    - endpoints: [ "sw1:eth1", "sw2:eth1" ] # trunk entre os switches
+    - endpoints: [ "pc1:eth1", "sw1:eth2" ] # host 1 no switch 1
+    - endpoints: [ "pc2:eth1", "sw2:eth2" ] # host 2 no switch 2
