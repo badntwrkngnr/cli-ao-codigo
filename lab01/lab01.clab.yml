@@ -10,7 +10,6 @@ topology:
     sw2:
       kind: arista_ceos
       image: ceos:4.36.2.f
-
     pc1:
       kind: linux
       image: wbitt/network-multitool:alpine-extra
